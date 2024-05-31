@@ -5,14 +5,11 @@
     "subdirs": true
   },
   "package-specs": {
-    "module": "esmodule",
+    "module": "commonjs",
     "in-source": true
   },
   "suffix": ".res.js",
-  "bs-dependencies": [
-    "@rescript/core"
-  ],
-  "bsc-flags": [
-    "-open RescriptCore"
-  ]
+  "bs-dependencies": ["@rescript/core"],
+  "bsc-flags": ["-open RescriptCore"]
 }
+

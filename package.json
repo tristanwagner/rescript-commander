@@ -1,7 +1,6 @@
 {
   "name": "rescript-commander",
-  "version": "0.0.0",
-  "type": "module",
+  "version": "0.0.1",
   "scripts": {
     "res:build": "rescript",
     "res:clean": "rescript clean",
