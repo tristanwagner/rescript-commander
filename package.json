@@ -7,15 +7,19 @@
     "res:dev": "rescript -w"
   },
   "keywords": [
-    "rescript"
+    "rescript",
+    "commander"
   ],
-  "author": "",
+  "author": "Tristan WAGNER",
   "license": "MIT",
   "dependencies": {
     "@rescript/core": "^1.3.0",
     "rescript": "^11.1.1"
   },
   "devDependencies": {
+    "commander": "*"
+  },
+  "peerDependencies": {
     "commander": "^12.1.0"
   }
 }

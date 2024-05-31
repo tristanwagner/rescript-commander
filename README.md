@@ -1,13 +1,25 @@
-# ReScript Project Template
+# rescript-commander
 
-- [Installation](../../README.md)
+Rescript bindings for the [Commander javascript library](https://github.com/tj/commander.js)
 
-Official ReScript starter template.
+This is a work in progress, contributions are welcome !
 
 ## Installation
 
+Install required packages via `npm`:
+
 ```sh
-npm install
+npm install rescript-commander commander
+```
+
+Then add `rescript-express` to your `bsconfig.json`'s or `rescript.json`'s' `bs-dependencies`:
+
+```diff
+ {
+   "bs-dependencies": [
++    "rescript-commander"
+   ]
+ }
 ```
 
 ## Build
@@ -15,9 +27,3 @@ npm install
 - Build: `npm run res:build`
 - Clean: `npm run res:clean`
 - Build & watch: `npm run res:dev`
-
-## Run
-
-```sh
-node src/Demo.res.js
-```
